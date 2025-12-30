@@ -1,5 +1,7 @@
 # OpenBB 期权学习与实践
 
+[English](README_EN.md) | 中文
+
 本仓库整理了一套循序渐进的期权学习路线，并配套 OpenBB 的 Python 脚本示例，帮助你从基础概念过渡到数据分析与可视化。
 
 ## 内容概览
@@ -8,7 +10,7 @@
 - 相关图像输出示例（Greeks、IV 微笑）
 
 ## 目录结构
-- `期权学习与OpenBB实践指南_v3.md`：完整学习笔记与代码示例
+- [`期权学习与OpenBB实践指南_v3.md`](期权学习与OpenBB实践指南_v3.md)：完整学习笔记与代码示例（中文）
 - `1-1 stock.py`：股票报价与历史价格
 - `2-2 option chain.py`：期权链与到期日提取
 - `2-2 option chain extra.py`：期权链筛选与 Greeks 基础

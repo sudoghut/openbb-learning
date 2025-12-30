@@ -1,5 +1,7 @@
 # OpenBB Options Learning and Practice
 
+English | [中文](README.md)
+
 This repository provides a step-by-step options learning path with OpenBB Python examples, moving from core concepts to analysis and visualization.
 
 ## Overview
@@ -8,7 +10,7 @@ This repository provides a step-by-step options learning path with OpenBB Python
 - Sample output images (Greeks and volatility smile)
 
 ## Structure
-- `期权学习与OpenBB实践指南_v3.md`: full study notes and code snippets (Chinese)
+- [`Options_Learning_and_OpenBB_Practice_Guide.md`](Options_Learning_and_OpenBB_Practice_Guide.md): full study notes and code snippets (English)
 - `1-1 stock.py`: stock quote and historical prices
 - `2-2 option chain.py`: option chain and expirations
 - `2-2 option chain extra.py`: chain filtering and Greeks basics
