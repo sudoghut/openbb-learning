@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(conda run:*)",
+      "Bash(set PYTHONIOENCODING=utf-8:*)",
+      "Bash(C:Userssudosanaconda3python.exe:*)",
+      "Bash(cmd /c \"cd /d c:\\\\Users\\\\sudos\\\\OneDrive\\\\document\\\\GitHub\\\\openbb-learning && set PYTHONIOENCODING=utf-8 && C:\\\\Users\\\\sudos\\\\anaconda3\\\\python.exe \"\"2-2 option chain.py\"\"\")",
+      "Bash(powershell -Command \"cd ''c:\\\\Users\\\\sudos\\\\OneDrive\\\\document\\\\GitHub\\\\openbb-learning''; $env:PYTHONIOENCODING=''utf-8''; & ''C:\\\\Users\\\\sudos\\\\anaconda3\\\\python.exe'' ''2-2 option chain.py''\")",
+      "Bash(powershell -Command \"& ''C:\\\\Users\\\\sudos\\\\anaconda3\\\\python.exe'' -c \"\"\nfrom openbb import obb\nimport pandas as pd\npd.set_option\\(''display.max_columns'', None\\)\npd.set_option\\(''display.width'', None\\)\nobb.user.preferences.output_type = ''dataframe''\nchains = obb.derivatives.options.chains\\(symbol=''SPY''\\)\nprint\\(''Columns:'', chains.columns.tolist\\(\\)\\)\nprint\\(\\)\nprint\\(chains.head\\(5\\).to_string\\(\\)\\)\n\"\"\")",
+      "Bash(powershell -Command:*)"
+    ]
+  }
+}
